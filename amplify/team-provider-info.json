@@ -1,0 +1,40 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-client-app-local-42644-authRole",
+            "UnauthRoleArn": "arn:aws:iam::417004024968:role/amplify-client-app-local-42644-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::417004024968:role/amplify-client-app-local-42644-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-client-app-local-42644-deployment",
+            "UnauthRoleName": "amplify-client-app-local-42644-unauthRole",
+            "StackName": "amplify-client-app-local-42644",
+            "StackId": "arn:aws:cloudformation:us-east-2:417004024968:stack/amplify-client-app-local-42644/04196ed0-7b05-11ea-809c-0a6c486e9f90",
+            "AmplifyAppId": "dmish4eskhxxv"
+        },
+        "categories": {
+            "auth": {
+                "clientapp2ff3aa97": {}
+            }
+        }
+    },
+    "localdev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-client-app-localdev-130125-authRole",
+            "UnauthRoleArn": "arn:aws:iam::417004024968:role/amplify-client-app-localdev-130125-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::417004024968:role/amplify-client-app-localdev-130125-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-client-app-localdev-130125-deployment",
+            "UnauthRoleName": "amplify-client-app-localdev-130125-unauthRole",
+            "StackName": "amplify-client-app-localdev-130125",
+            "StackId": "arn:aws:cloudformation:us-east-2:417004024968:stack/amplify-client-app-localdev-130125/15374590-7c16-11ea-9fc5-02402ec64522",
+            "AmplifyAppId": "dmish4eskhxxv"
+        },
+        "categories": {
+            "auth": {
+                "clientapp2ff3aa97": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"342289262808-ul5554tj3rfupa2cusie029k9ourasrg.apps.googleusercontent.com\",\"client_secret\":\"5v9btBJCNbqdYjV2pYTlpsXl\"}]"
+                }
+            }
+        }
+    }
+}
