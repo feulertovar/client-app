@@ -1,22 +1,12 @@
 // import useEffect hook
 import React, { useEffect } from 'react';
-import logo from './logo.svg'
-import './App.css'
+import logo from './logo.svg';
+import './App.css';
+import NavMenu from './NavMenu';
 
 // import Hub
 import { Auth, Hub } from 'aws-amplify'
 
-function checkUser() {
-  Auth.currentAuthenticatedUser()
-    .then(user => console.log({ user }))
-    .catch(err => console.log(err))
-}
-
-function signOut() {
-  Auth.signOut()
-    .then(data => console.log(data))
-    .catch(err => console.log(err))
-}
 
 function App(props) {
     // in useEffect, we create the listener
@@ -34,14 +24,12 @@ function App(props) {
   }, [])
   return (
     <div className="App">
+        <NavMenu />
       <header className="App-header">
+        
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          
         </p>
-        <button onClick={() => Auth.federatedSignIn()}>Sign In</button>
-        <button onClick={checkUser}>Check User</button>
-        <button onClick={signOut}>Sign Out</button>
       </header>
     </div>
   )
